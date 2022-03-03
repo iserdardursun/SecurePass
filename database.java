@@ -19,8 +19,8 @@ public class database {
             Class.forName("com.mysql.cj.jdbc.Driver");
             // Setup the connection with the DB
             connect = DriverManager
-                    .getConnection("jdbc:mysql://securepass-db.c4p1nn53ccup.eu-central-1.rds.amazonaws.com:3305/securepass?"
-                            + "user=admin&password=secureroot");
+                    .getConnection("jdbc:mysql://securepass-db.........amazonaws.com:3305/securepass?"
+                            + "user=....&password=....");
             // Statements allow to issue SQL queries to the database
             statement = connect.createStatement();
         } catch (Exception e) {
